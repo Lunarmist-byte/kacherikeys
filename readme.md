@@ -209,6 +209,10 @@ venv\Scripts\activate
 python -m pip install pyserial pygame numpy
 ```
 
+## 4.5 Download the Audio Pack
+Link:https://musical-artifacts.com/artifacts/1229
+Put it in a folder called 'audio', the file should end with .sf2
+
 ### 5. Configure the serial port
 
 Update the port in the Python configuration:
@@ -263,34 +267,20 @@ This is the planned modular structure. The current prototype may still have its 
 - [x] Note-on and note-off events.
 
 ### Version 1.1 — Modular Audio Engine
-- [ ] Separate input processing from sound generation.
-- [ ] Implement Piano Mode.
-- [ ] Implement Synth Mode.
-- [ ] Implement Drum Mode.
-- [ ] Add runtime mode selection.
-- [ ] Support configurable electrode mappings.
+- [x] Separate input processing from sound generation.
+- [x] Implement Piano Mode.
+- [x] Implement Synth Mode.
+- [x] Implement Drum Mode.
+- [x] Add runtime mode selection.
+- [x] Support configurable electrode mappings.
 
 ### Version 1.2 — Improved Audio
-- [ ] Integrate FluidSynth and SoundFonts.
-- [ ] Add realistic piano and instrument sounds.
-- [ ] Add sample-based percussion.
-- [ ] Implement synthesizer oscillators.
-- [ ] Add ADSR envelopes and effects.
+- [x] Integrate FluidSynth and SoundFonts.
+- [x] Add realistic piano and instrument sounds.
+- [x] Add sample-based percussion.
+- [x] Implement synthesizer oscillators.
+- [x] Add ADSR envelopes and effects.
 
-### Version 2.0 — Expressive Controls
-- [ ] Improve capacitive sensitivity and calibration.
-- [ ] Add actual pressure sensing using FSRs.
-- [ ] Implement velocity-sensitive triggering.
-- [ ] Improve multi-touch reliability.
-- [ ] Add octave and scale controls.
-
-### Version 3.0 — Advanced Instrument
-- [ ] MIDI compatibility.
-- [ ] BLE MIDI or wireless communication.
-- [ ] Standalone audio generation.
-- [ ] Custom enclosure and electrode layout.
-- [ ] Configurable instrument presets.
-- [ ] Pattern recording and playback.
 
 ## Current Limitations
 
@@ -306,10 +296,13 @@ WIREKEYS is an experimental open-source hardware and software project.
 
 Ideas, improvements, experiments, and contributions are welcome. The project is particularly interested in unconventional musical interfaces, embedded systems, capacitive sensing, and real-time audio processing.
 
+### Images and Demo
+https://github.com/user-attachments/assets/84c43484-03e1-42b8-8ab7-dde49cdc5dc5
+<img width="1280" height="960" alt="WhatsApp Image 2026-10-31 at 8 30 46 PM" src="https://github.com/user-attachments/assets/263ee2b3-7547-4163-ae27-ce4072c44650" />
+
+
 ## License
 
 MIT License.
 
 ---
-
-WIREKEYS is an exploration of how simple hardware can become an expressive interface. The objective is not just to build another keyboard, but to experiment with different ways of interacting with sound.
